@@ -38,7 +38,7 @@ include "control/bd_connect.php";
 <body>
     <header>
         <div class="container">
-            <img class="rounded-circle" src="images/Acolhe+Icon.jpg" alt="Rocketseat" />
+            <a  href="index.php"><img class="rounded-circle" src="images/Acolhe+Icon.jpg"/></a>
             <div class="menu-section">
                 <div class="menu-toggle">
                     <div class="one"></div>

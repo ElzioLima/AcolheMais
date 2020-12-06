@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/footer-white.css">
     <link rel="stylesheet" href="css/print.css" media="print">
     <link rel="stylesheet" href="css/style.css">
@@ -19,7 +18,7 @@
 <body>
     <header>
         <div class="container">
-            <img class="rounded-circle" src="images/Acolhe+Icon.jpg" alt="Rocketseat" />
+            <a href="index.php"><img class="rounded-circle" src="images/Acolhe+Icon.jpg" /></a>
             <div class="menu-section">
                 <div class="menu-toggle">
                     <div class="one"></div>
@@ -49,12 +48,9 @@
                 <h2>
                     Conectando Pessoas
                 </h2>
-                <p class="text-justify text-reset">Precisando de alguém para conversar ?
-                    Aqui você encontrará contatos de
-                    profissionais que estarão prontos para
-                    acolher e oferecer apoio psicológico
-                    graituito e on-line durante a pandemia
-                    da COVID-19.</p>
+                <p class="text-justify text-reset">Precisando de alguém para conversar? Aqui você encontrará contatos de
+                    profissionais que estarão prontos para acolher e oferecer apoio psicológico graituito e on-line 
+                    durante a pandemia da COVID-19.</p>
             </div>
             <img src="./images/Dayflow - Coffee Store.png" alt="" />
         </div>
@@ -63,17 +59,15 @@
     <div class="container my-4" id="plataformas">
 
         <hr class="my-4">
-        <h1 class="text-center"> Plataformas de apoio disponíveis</h1>
+        <h3 class="text-center"> Plataformas de apoio disponíveis</h3>
 
         <!--Carousel Wrapper-->
         <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
             <!--Controls-->
             <div class="controls-top">
-                <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i
-                        class="fa fa-chevron-left"></i></a>
-                <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
-                        class="fa fa-chevron-right"></i></a>
+                <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
             </div>
             <!--/.Controls-->
 
@@ -93,12 +87,11 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card mb-2">
-                                <img class="card-img-top"
-                                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
-                                    alt="Card image cap">
+                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Nome da plataforma</h4>
-                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada plataforma</p>
+                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada
+                                        plataforma</p>
                                     <a class="btn btn-primary">Ver mais</a>
                                 </div>
                             </div>
@@ -106,12 +99,11 @@
 
                         <div class="col-md-4 clearfix d-none d-md-block">
                             <div class="card mb-2">
-                                <img class="card-img-top"
-                                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-                                    alt="Card image cap">
+                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Nome da plataforma</h4>
-                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada plataforma</p>
+                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada
+                                        plataforma</p>
                                     <a class="btn btn-primary">Ver mais</a>
                                 </div>
                             </div>
@@ -119,12 +111,11 @@
 
                         <div class="col-md-4 clearfix d-none d-md-block">
                             <div class="card mb-2">
-                                <img class="card-img-top"
-                                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-                                    alt="Card image cap">
+                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Nome da plataforma</h4>
-                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada plataforma</p>
+                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada
+                                        plataforma</p>
                                     <a class="btn btn-primary">Ver mais</a>
                                 </div>
                             </div>
@@ -140,12 +131,11 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card mb-2">
-                                <img class="card-img-top"
-                                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
-                                    alt="Card image cap">
+                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Nome da plataforma</h4>
-                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada plataforma</p>
+                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada
+                                        plataforma</p>
                                     <a class="btn btn-primary">Ver mais</a>
                                 </div>
                             </div>
@@ -153,12 +143,11 @@
 
                         <div class="col-md-4 clearfix d-none d-md-block">
                             <div class="card mb-2">
-                                <img class="card-img-top"
-                                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
-                                    alt="Card image cap">
+                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Nome da plataforma</h4>
-                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada plataforma</p>
+                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada
+                                        plataforma</p>
                                     <a class="btn btn-primary">Ver mais</a>
                                 </div>
                             </div>
@@ -166,12 +155,11 @@
 
                         <div class="col-md-4 clearfix d-none d-md-block">
                             <div class="card mb-2">
-                                <img class="card-img-top"
-                                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
-                                    alt="Card image cap">
+                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Nome da plataforma</h4>
-                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada plataforma</p>
+                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada
+                                        plataforma</p>
                                     <a class="btn btn-primary">Ver mais</a>
                                 </div>
                             </div>
@@ -187,12 +175,11 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card mb-2">
-                                <img class="card-img-top"
-                                    src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg"
-                                    alt="Card image cap">
+                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Nome da plataforma</h4>
-                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada plataforma</p>
+                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada
+                                        plataforma</p>
                                     <a class="btn btn-primary">Ver mais</a>
                                 </div>
                             </div>
@@ -200,12 +187,11 @@
 
                         <div class="col-md-4 clearfix d-none d-md-block">
                             <div class="card mb-2">
-                                <img class="card-img-top"
-                                    src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
-                                    alt="Card image cap">
+                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Nome da plataforma</h4>
-                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada plataforma</p>
+                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada
+                                        plataforma</p>
                                     <a class="btn btn-primary">Ver mais</a>
                                 </div>
                             </div>
@@ -213,12 +199,11 @@
 
                         <div class="col-md-4 clearfix d-none d-md-block">
                             <div class="card mb-2">
-                                <img class="card-img-top"
-                                    src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg"
-                                    alt="Card image cap">
+                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Nome da plataforma</h4>
-                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada plataforma</p>
+                                    <p class="card-text text-justify">Aqui entra o resumo a respeito de uma determinada
+                                        plataforma</p>
                                     <a class="btn btn-primary">Ver mais</a>
                                 </div>
                             </div>
@@ -270,13 +255,13 @@
     <section id="quemsomos">
         <div class="container">
             <h2 class="text-align-center">Quem somos</h2>
-            <h3 class="text-justify">Somos uma equipe formada por alunos da Universidade Federal do
+            <p class="text-justify">Somos uma equipe formada por alunos da Universidade Federal do
                 Amazonas UFAM, Adriano Gomes, Elzio Lima, Rafael Guedes e
-                Taynara Costa. Tivemos a iniciativa em desenvolver o “Nome do
-                site para conectar pessoas que necessitam de cuidados e atenção.
-                
+                Taynara Costa. Tivemos a iniciativa em desenvolver o “Acolhe+” para conectar pessoas que necessitam de
+                cuidados e atenção.
+
                 Esperamos que essa iniciativa seja uma fonte de apoio importante e
-                te auxlie a lembrar que não está sozinho/a e que há ajuda disponível</h2>
+                te auxlie a lembrar que não está sozinho/a e que há ajuda disponível</p>
         </div>
     </section>
 
@@ -299,15 +284,9 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 
     <script src="js/menu.js"></script>
     <script src="js/scripts.js"></script>
